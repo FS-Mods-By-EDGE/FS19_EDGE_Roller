@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="46">
     <author>Edge Gaming / Castiga</author>
-    <translationby>Castiga</translationby>
+    <translationsby>Castiga</translationsby>
     <version>1.8.0.0</version>
     <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
         <en>EDGE Field Roller</en>
@@ -274,4 +274,11 @@ Lista zmian 1.5.0.0:
 	<brands>
 		<brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
 	</brands>
+    <credits><![CDATA[
+## Contributors
+- Castiga, EDGE Gaming
+## Translations
+- Castiga
+## Designers
+- Castiga, GIANTS Software]]></credits>
 </modDesc>
