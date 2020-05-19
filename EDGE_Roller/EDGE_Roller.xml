@@ -35,6 +35,7 @@
     <baseMaterial>
         <material name="EDGE_Roller_Pro_mat" baseNode="Attacher">
             <shaderParameter name="colorMat0" value="STOLL_GREY1"/>
+            <shaderParameter name="colorMat1" value="STOLL_GREY1"/>
         </material>
         <material name="RollerLite_mat" baseNode="LiteDrum">
             <shaderParameter name="colorMat2" value="DUEVELSDORF_RED1"/>
@@ -111,6 +112,15 @@
             <groundReferenceNode index="1"/>
         </workArea>
     </workAreas>
+    <lights>
+        <sharedLight linkNode="light01"       filename="$data/shared/assets/lights/lizard/frontLightRectangle_01.xml" />
+        <sharedLight linkNode="light02"       filename="$data/shared/assets/lights/lizard/frontLightRectangle_01.xml" />
+        <realLights>
+            <high>
+                <light node="defaultLightsHigh1" lightTypes="0"/>
+            </high>
+        </realLights>
+    </lights>
 	<foldable>
         <foldingConfigurations title="$l10n_Config_Size">
             <foldingConfiguration name="$l10n_Config_3M" price="0" workingWidth="3" >
