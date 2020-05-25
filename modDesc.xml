@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="47">
-    <author>Edge Gaming / Castiga</author>
+    <author>Edge Gaming</author>
     <translationsby>Castiga</translationsby>
     <version>2.0.0.0</version>
     <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
@@ -57,7 +57,9 @@ Changelog 2.0.0.0:
 - Added lights & warning signs.
 - Created loads of configuration options.
 - Added Italian translation.
-- Updated to support Seasons better, option to delete snow has been added.]]></en>
+- New drums & with separate color choice.
+- New store photos & mod icon.
+- Fixed a few misplaced UVs on the old model.]]></en>
 
 <de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern. Benutzerfreundlichen 3-Punkt-Befestigung.
 
@@ -102,7 +104,9 @@ zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.
 - Lichter und Warnschilder hinzugefügt.
 - Viele Konfigurationsoptionen erstellt.
 - Italienische Übersetzung hinzugefügt.
-- Aktualisiert, um die Jahreszeiten besser zu unterstützen. Die Option zum Löschen von Schnee wurde hinzugefügt.]]></de>
+- Neue Trommeln & mit separater Farbauswahl.
+- Neues Store Fotos & Mod Symbol.
+- Einige falsch platzierte UV-Strahlen am alten Modell wurden behoben.]]></de>
 
         <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, précise et facile à utiliser.
 
@@ -147,7 +151,9 @@ Changer le journal 2.0.0.0:
 - Lumières et panneaux d'avertissement ajoutés.
 - Création de nombreuses options de configuration.
 - Ajout de la traduction italienne.
-- Mise à jour pour mieux prendre en charge les saisons, une option pour supprimer la neige a été ajoutée.]]></fr>
+- Nouveaux tambours et avec choix de couleur séparé.
+- Nouvelles photos de magasin et icône de mod.
+- Correction de quelques UV mal placés sur l'ancien modèle.]]></fr>
         <es><![CDATA[Rodillos para eliminar campos y hacer que su granja sea un atacante de 3 puntos limpio, preciso y fácil de usar.
 
 Rodillo de campo S:
@@ -191,7 +197,9 @@ Registro de cambios 2.0.0.0:
 - Se agregaron luces y señales de advertencia.
 - Se crearon muchas opciones de configuración.
 - Añadida traducción al italiano.
-- Actualizado para admitir mejor las estaciones, se ha agregado la opción de eliminar la nieve.]]></es>
+- Nuevos tambores y con opción de color por separado.
+- Nuevas fotos de la tienda e ícono de mod.
+- Se corrigieron algunos UV mal ubicados en el modelo anterior.]]></es>
         <ru><![CDATA[Ролики для уборки полей и придания вашей ферме чистоты, точности и простоты в использовании.
 
 Полевой каток S:
@@ -235,7 +243,9 @@ Registro de cambios 2.0.0.0:
 - Добавлены огни и предупреждающие знаки.
 - Создано множество вариантов конфигурации.
 - Добавлен итальянский перевод.
-- Улучшена поддержка сезонов, добавлена возможность удаления снега.]]></ru>
+- Новые барабаны и с отдельным выбором цвета.
+- Новый магазин фото и иконка мода.
+- Исправлено несколько неуместных UV на старой модели.]]></ru>
         <pl><![CDATA[Rolki do usuwania pól i czyszczenia farmy, dokładne i łatwe w obsłudze 3-punktowy zaczep.
 
 Wałek polowy S:
@@ -279,7 +289,9 @@ Dziennik zmian 2.0.0.0:
 - Dodano światła i znaki ostrzegawcze.
 - Utworzono mnóstwo opcji konfiguracji.
 - Dodano tłumaczenie na włoski.
-- Zaktualizowano, aby lepiej obsługiwać pory roku, dodano opcję usuwania śniegu.]]></pl>
+- Nowe bębny i osobny wybór kolorów.
+- Nowe zdjęcia ze sklepu i ikona mod.
+- Naprawiono kilka źle ustawionych promieni UV na starym modelu.]]></pl>
         <it><![CDATA[Rulli per la rimozione dei campi e per rendere l'attaccante a 3 punti pulito, preciso e facile da usare.
 
 --Informazioni tecniche--
@@ -324,9 +336,10 @@ Log delle modifiche 2.0.0.0:
 - Aggiunti luci e segnali di avvertimento.
 - Creato un sacco di opzioni di configurazione.
 - Aggiunta la traduzione italiana.
-- Aggiornato per supportare meglio Seasons, è stata aggiunta l'opzione per eliminare la neve.]]></it>
-
-</description>
+- Nuovi tamburi e con scelta del colore separata.
+- Nuove foto dello store e icona mod.
+- Risolti alcuni UV fuori posto sul vecchio modello.]]></it>
+    </description>
     <iconFilename>EDGERollerPack_icon.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>
@@ -342,10 +355,16 @@ Log delle modifiche 2.0.0.0:
             <specialization name="fillUnit"/>
         </type>
     </vehicleTypes>
-    <specializations>
-		<specialization name="motorized" className="workingWidth"/>
-    </specializations>
 	<l10n filenamePrefix="modDesc/modDesc_l10n">
+		<text name="config_drumColor">
+			<en>Drum color</en>
+			<de>Trommelfarbe</de>
+			<fr>Couleur du tambour</fr>
+            <es>Color del tambor</es>
+            <ru>Цвет барабана</ru>
+            <pl>Kolor bębna</pl>
+            <it>Colore del tamburo</it>
+		</text>
 		<text name="function_EDGEroller">
 			<en>Rollers can remove fields as well as cleaning an area for wheel tracks.</en>
 			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen.</de>

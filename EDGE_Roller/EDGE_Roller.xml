@@ -6,6 +6,7 @@
         <specs>
             <combination>AGCO 650</combination>
 			<neededPower>50</neededPower>
+            <capacity unit="$l10n_unit_kg">1580</capacity>
         </specs>
         <functions>
             <function>$l10n_function_EDGEroller</function>
@@ -84,7 +85,7 @@
     </honk>
     <motorized>
         <motorConfigurations title="$l10n_Config_Size">
-            <motorConfiguration name="$l10n_Config_3M" price="0" workingWidth="3" hp="10">
+            <motorConfiguration name="$l10n_Config_3M" price="0" workingWidth="3" hp="10" showOnHud="false">
                 <motor torqueScale="0.25" minRpm="500" maxRpm="2000" maxForwardSpeed="15" maxBackwardSpeed="10" brakeForce="0.1" lowBrakeForceScale="0.22">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5"  torque="0.97"/>
@@ -107,8 +108,9 @@
 				<objectChange node="sideMarkerR01" visibilityActive="true"/>
 				<objectChange node="sideMarkerR02" visibilityActive="false"/>
 				<objectChange node="sideMarkerR03" visibilityActive="false"/>
+                <objectChange node="EDGE_RollerLite" massActive="1580" />
 			</motorConfiguration>
-            <motorConfiguration name="$l10n_Config_4M" price="2000" workingWidth="4" hp="15">
+            <motorConfiguration name="$l10n_Config_4M" price="2000" workingWidth="4" hp="15" showOnHud="false">
                 <motor torqueScale="0.35"/>
                 <objectChange node="EDGE_Roller_M_vis" visibilityInactive="false" visibilityActive="true"/>
 				<objectChange node="Support" translationActive="0.372 0 0" translationInactive="0 0 0"/>
@@ -133,8 +135,9 @@
 				<objectChange node="sideMarkerR01" visibilityActive="true"/>
 				<objectChange node="sideMarkerR02" visibilityActive="true"/>
 				<objectChange node="sideMarkerR03" visibilityActive="false"/>
+                <objectChange node="EDGE_RollerLite" massActive="1980" />
             </motorConfiguration>
-			<motorConfiguration name="$l10n_Config_6M" price="4000" workingWidth="6"  hp="20">
+			<motorConfiguration name="$l10n_Config_6M" price="4000" workingWidth="6" hp="20" showOnHud="false">
                 <motor torqueScale="0.45"/>
                 <objectChange node="EDGE_Roller_L_vis" visibilityInactive="false" visibilityActive="true"/>
                 <objectChange node="SupportL" visibilityInactive="false" visibilityActive="true"/>
@@ -163,6 +166,7 @@
 				<objectChange node="sideMarkerR01" visibilityActive="false"/>
 				<objectChange node="sideMarkerR02" visibilityActive="true"/>
 				<objectChange node="sideMarkerR03" visibilityActive="true"/>
+                <objectChange node="EDGE_RollerLite" massActive="2580" />
             </motorConfiguration>
         </motorConfigurations>
         <differentialConfigurations>
@@ -326,7 +330,7 @@
     <foldable>
         <foldingConfigurations title="$l10n_configuration_warningSigns">
             <foldingConfiguration name="$l10n_config_warningSigns" price="150">
-                <foldingParts posDirectionText="action_foldWARNING" negDirectionText="action_unfoldWARNING">
+                <foldingParts posDirectionText="action_unfoldWARNING" negDirectionText="action_foldWARNING">
                     <foldingPart animationName="folding" speedScale="1"/>
                 </foldingParts>
 				<objectChange node="warningSigns" visibilityActive="true"/>
@@ -602,7 +606,7 @@
         <designMaterialConfiguration name="$l10n_color_PINK"            color="0.880 0.130 0.540 1" material="0"/>
         <material name="EDGE_Roller_mat" shaderParameter="colorMat1"/>
     </designMaterialConfigurations>
-    <rimColorConfigurations useDefaultColors="true" price="250" defaultColorIndex="9">
+    <rimColorConfigurations title="$l10n_config_drumColor" useDefaultColors="true" price="250" defaultColorIndex="9">
             <!--Matte-->
 		<rimColorConfiguration name="$l10n_color_ITRUNNERMATTE" 	    color="0.038 0.037 0.048 1" material="1"/>
         <rimColorConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
@@ -793,7 +797,7 @@
 		<i3dMapping id="supportColM" node="0>2|1|1"/>
 		<i3dMapping id="supportColL" node="0>2|1|2"/>
 		<i3dMapping id="workArea" node="0>3"/>
-		<i3dMapping id="EDGERollerS" node="0>"/>
+		<i3dMapping id="EDGE_RollerLite" node="0>"/>
 		<i3dMapping id="EDGERollerM" node="0>7|0"/>
 		<i3dMapping id="EDGERollerL" node="0>7|1"/>
 		<i3dMapping id="wheels" node="0>0"/>
