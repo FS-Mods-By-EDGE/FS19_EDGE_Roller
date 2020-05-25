@@ -13,7 +13,8 @@
         <it>EDGE Rullo Di Campo</it>
     </title>
     <description>
-        <en><![CDATA[Rollers for removing fields and making your farm clean, accurate and easy to use 3-point attacher.
+        <en><![CDATA[Rollers for removing fields and making your farm clean, they can also be used to remove snow.
+Accurate and easy to use 3-point attacher. They are also remote controlled, if you ever need to move them without a tractor.
 
 --Technical Info--
 Field Roller S:
@@ -61,7 +62,8 @@ Changelog 2.0.0.0:
 - New store photos & mod icon.
 - Fixed a few misplaced UVs on the old model.]]></en>
 
-<de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern. Benutzerfreundlichen 3-Punkt-Befestigung.
+<de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern, Sie können auch zum Entfernen von Schnee verwendet werden.
+Benutzerfreundlichen 3-Punkt-Befestigung. Sie sind auch ferngesteuert, falls Sie sie jemals ohne Traktor bewegen müssen.
 
 Feldwalze S:
 Preis: 4.900€
@@ -108,7 +110,8 @@ zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.
 - Neues Store Fotos & Mod Symbol.
 - Einige falsch platzierte UV-Strahlen am alten Modell wurden behoben.]]></de>
 
-        <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, précise et facile à utiliser.
+        <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, ils peuvent également être utilisés pour enlever la neige.
+Fixateur 3 points précis et facile à utiliser. Ils sont également télécommandés si vous devez les déplacer sans tracteur.
 
 Rouleau De Terrain S:
 Prix: 4.900€
@@ -154,7 +157,8 @@ Changer le journal 2.0.0.0:
 - Nouveaux tambours et avec choix de couleur séparé.
 - Nouvelles photos de magasin et icône de mod.
 - Correction de quelques UV mal placés sur l'ancien modèle.]]></fr>
-        <es><![CDATA[Rodillos para eliminar campos y hacer que su granja sea un atacante de 3 puntos limpio, preciso y fácil de usar.
+        <es><![CDATA[Rodillos para quitar campos y limpiar su granja, también se pueden usar para quitar nieve.
+Atacante de 3 puntos preciso y fácil de usar. También están controlados a distancia, si alguna vez necesita moverlos sin un tractor.
 
 Rodillo de campo S:
 Precio: 4.900 €
@@ -200,7 +204,8 @@ Registro de cambios 2.0.0.0:
 - Nuevos tambores y con opción de color por separado.
 - Nuevas fotos de la tienda e ícono de mod.
 - Se corrigieron algunos UV mal ubicados en el modelo anterior.]]></es>
-        <ru><![CDATA[Ролики для уборки полей и придания вашей ферме чистоты, точности и простоты в использовании.
+        <ru><![CDATA[Ролики для уборки полей и очистки вашей фермы, их также можно использовать для уборки снега.
+Точный и простой в использовании 3-х точечный атакующий. Они также имеют дистанционное управление, если вам когда-либо понадобится перемещать их без трактора.
 
 Полевой каток S:
 Цена: 4.900 €
@@ -246,7 +251,8 @@ Registro de cambios 2.0.0.0:
 - Новые барабаны и с отдельным выбором цвета.
 - Новый магазин фото и иконка мода.
 - Исправлено несколько неуместных UV на старой модели.]]></ru>
-        <pl><![CDATA[Rolki do usuwania pól i czyszczenia farmy, dokładne i łatwe w obsłudze 3-punktowy zaczep.
+        <pl><![CDATA[Wałki do usuwania pól i czyszczenia farmy mogą być również używane do usuwania śniegu.
+Dokładny i łatwy w obsłudze 3-punktowy zaczep. Są również zdalnie sterowane, jeśli kiedykolwiek chcesz je przenieść bez ciągnika.
 
 Wałek polowy S:
 Cena: 4.900 €
@@ -292,7 +298,8 @@ Dziennik zmian 2.0.0.0:
 - Nowe bębny i osobny wybór kolorów.
 - Nowe zdjęcia ze sklepu i ikona mod.
 - Naprawiono kilka źle ustawionych promieni UV na starym modelu.]]></pl>
-        <it><![CDATA[Rulli per la rimozione dei campi e per rendere l'attaccante a 3 punti pulito, preciso e facile da usare.
+        <it><![CDATA[Rulli per la rimozione dei campi e per la pulizia della tua fattoria, possono anche essere utilizzati per rimuovere la neve.
+Attacher a 3 punti preciso e facile da usare. Sono anche telecomandati, se mai hai bisogno di spostarli senza un trattore.
 
 --Informazioni tecniche--
 Field Roller S:
@@ -366,13 +373,13 @@ Log delle modifiche 2.0.0.0:
             <it>Colore del tamburo</it>
 		</text>
 		<text name="function_EDGEroller">
-			<en>Rollers can remove fields as well as cleaning an area for wheel tracks.</en>
-			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen.</de>
-			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues.</fr>
-            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas.</es>
-            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек.</ru>
-            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół.</pl>
-            <it>I rulli possono rimuovere i campi e pulire un'area per le piste.</it>
+			<en>Rollers can remove fields as well as cleaning an area for wheel tracks, they can also be used to remove snow.</en>
+			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen, Sie können auch zum Entfernen von Schnee verwendet werden.</de>
+			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues, ils peuvent également être utilisés pour enlever la neige.</fr>
+            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas, También se pueden utilizar para quitar la nieve.</es>
+            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек, они также могут быть использованы для удаления снега.</ru>
+            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół, mogą być również używane do usuwania śniegu.</pl>
+            <it>I rulli possono rimuovere i campi e pulire un'area per le piste, possono anche essere usati per rimuovere la neve.</it>
 		</text>
 		<text name="shopItem_EDGEroller">
 			<en>Field Roller</en>

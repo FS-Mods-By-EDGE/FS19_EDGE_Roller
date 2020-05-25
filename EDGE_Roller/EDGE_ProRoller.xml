@@ -37,37 +37,64 @@
     <wheels>
         <wheelConfigurations title="$l10n_configuration_drum">
             <wheelConfiguration name="$l10n_config_customDrum" price="150" brand="EDGE">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="drums/customDrum.xml" isLeft="false" hasTireTracks="false" hasParticles="true">
-                        <physics restLoad="1.0" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                    </wheel>
+                    <wheel isLeft="true" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelLeft" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+                    </wheel>
+                    <wheel isLeft="false" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelRight" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_config_liteDrum" price="0" brand="LIZARD">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="drums/liteDrum.xml" isLeft="false" hasTireTracks="false" hasParticles="true">
-                        <physics restLoad="1.0" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                    </wheel>
+                    <wheel isLeft="true" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelLeft" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+                    </wheel>
+                    <wheel isLeft="false" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelRight" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_config_proDrum" price="100" brand="EDGE">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="drums/proDrum.xml" isLeft="false" hasTireTracks="false" hasParticles="true">
-                        <physics restLoad="1.0" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                    </wheel>
+                    <wheel isLeft="true" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelLeft" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+                    </wheel>
+                    <wheel isLeft="false" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelRight" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_config_roughDrum" price="250" brand="EDGE">
-                <wheels>
+                <wheels autoRotateBackSpeed="10.0" speedDependentRotateBack="false">
                     <wheel filename="drums/roughDrum.xml" isLeft="false" hasTireTracks="false" hasParticles="true">
-                        <physics restLoad="1.0" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelDrum" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                    </wheel>
+                    <wheel isLeft="true" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelLeft" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+                    </wheel>
+                    <wheel isLeft="false" hasTireTracks="false" hasParticles="true">
+                        <physics restLoad="1.0" showSteeringAngle="false" repr="wheelRight" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002" radius="0.468" width="0.1" mass="0.1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
                     </wheel>
                 </wheels>
             </wheelConfiguration>
         </wheelConfigurations>
+        <ackermannSteeringConfigurations>
+            <ackermannSteering rotSpeed="70" rotMax="60" rotCenter="0 0" />
+        </ackermannSteeringConfigurations>
     </wheels>
     <enterable isTabbable="false">
-        <enterReferenceNode node="exitPoint"/>
+        <enterReferenceNode node="enterPoint"/>
         <exitPoint node="exitPoint"/>
         <cameras>
             <camera node="camera" rotatable="true" rotateNode="cameraRot" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="4" transMax="40"/>
@@ -180,7 +207,7 @@
         <differentialConfigurations>
             <differentialConfiguration>
                 <differentials>
-                    <differential torqueRatio="0.5" maxSpeedRatio="3.0" wheelIndex1="1" wheelIndex2="2"/>
+                    <differential torqueRatio="0.5" maxSpeedRatio="3.0" wheelIndex1="2" wheelIndex2="3"/>
                 </differentials>
             </differentialConfiguration>
         </differentialConfigurations>
@@ -696,6 +723,8 @@
     <washable dirtDuration="30" washDuration="1" workMultiplier="10" fieldMultiplier="20"/>
     <i3dMappings>
         <i3dMapping id="wheelDrum" node="0>0|0"/>
+        <i3dMapping id="wheelLeft" node="0>0|1"/>
+        <i3dMapping id="wheelRight" node="0>0|2"/>
         <i3dMapping id="signMount00" node="0>5|4|2"/>
         <i3dMapping id="signMount01" node="0>5|4|3"/>
         <i3dMapping id="bolt_DecalLeft01" node="0>5|7"/>
@@ -703,6 +732,7 @@
         <i3dMapping id="camera" node="0>9|2|0"/>
         <i3dMapping id="cameraRot" node="0>9|2"/>
         <i3dMapping id="exitPoint" node="0>9|1"/>
+        <i3dMapping id="enterPoint" node="0>9|4"/>
         <i3dMapping id="warningSigns" node="0>5|4"/>
         <i3dMapping id="signRot02" node="0>5|4|1|2"/>
         <i3dMapping id="signRot01" node="0>5|4|0|2"/>
