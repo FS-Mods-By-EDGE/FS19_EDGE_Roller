@@ -3,6 +3,8 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
+        <text name="configuration_Design"		text="Dettaglio Dipinta"/>
+        <text name="configuration_Painted"		text="Dipinta"/>
         <text name="action_foldWARNING"			text="Piega Segnali di avvertimento"/>
         <text name="action_unfoldWARNING"		text="Svelare Segnali di avvertimento"/>
         <text name="configuration_warningSigns"	text="Segnali di avvertimento"/>
@@ -18,10 +20,6 @@
         <text name="config_liteDrum"			text="Light"/>
         <text name="config_proDrum"				text="Professionista"/>
         <text name="config_roughDrum"			text="Ruvido"/>
-        <text name="config_customDrumBolt"		text="Costume con giunto imbullonato"/>
-        <text name="config_liteDrumBolt"		text="Light con giunto imbullonato"/>
-        <text name="config_proDrumBolt"			text="Professionista con giunto imbullonato"/>
-        <text name="config_roughDrumBolt"		text="Ruvido con giunto imbullonato"/>
         <text name="config_lights"				text="Luci"/>
         <text name="config_beacon"				text="Luci di segnalazione"/>
         <text name="config_work"				text="Luci da lavoro"/>

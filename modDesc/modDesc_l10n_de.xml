@@ -3,6 +3,8 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
+        <text name="configuration_Design"		text="Detail Gemalt"/>
+        <text name="configuration_Painted"		text="Gemalt"/>
         <text name="action_foldWARNING"			text="Falten Warnschilder"/>
         <text name="action_unfoldWARNING"		text="Entfalten Warnschilder"/>
         <text name="configuration_warningSigns"	text="Warnschilder"/>
@@ -18,10 +20,6 @@
         <text name="config_liteDrum"			text="Lite"/>
         <text name="config_proDrum"				text="Profi"/>
         <text name="config_roughDrum"			text="Rau"/>
-        <text name="config_customDrumBolt"		text="Benutzerdefiniert mit Schraubverbindung"/>
-        <text name="config_liteDrumBolt"		text="Lite mit Schraubverbindung"/>
-        <text name="config_proDrumBolt"			text="Profi mit Schraubverbindung"/>
-        <text name="config_roughDrumBolt"		text="Rau mit Schraubverbindung"/>
         <text name="config_lights"				text="Beleuchtung"/>
         <text name="config_beacon"				text="Leuchtfeuer"/>
         <text name="config_work"				text="Luci di Arbeitsscheinwerfer"/>

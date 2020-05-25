@@ -2,6 +2,6 @@
 <wheel>
     <default>
         <physics radius="0.468" width="2" mass="1" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
-        <tire filename="drums/EDGE_proDrum.i3d" nodeLeft="0|0" nodeRight="0|0" maxDeformation="0.0" isCareWheel="false"/>
+        <outerRim filename="drums/EDGE_proDrum.i3d" node="0|0"/>
     </default>
 </wheel>

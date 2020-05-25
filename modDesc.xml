@@ -335,10 +335,16 @@ Log delle modifiche 2.0.0.0:
     </storeItems>
     <vehicleTypes>
         <type name="EDGE_roller" parent="roller" filename="$dataS/scripts/vehicles/Vehicle.lua">
-            <specialization name="fillUnit"/>
             <specialization name="motorized"/>
+            <specialization name="enterable"/>
+            <specialization name="drivable"/>
+            <specialization name="honk"/>
+            <specialization name="fillUnit"/>
         </type>
     </vehicleTypes>
+    <specializations>
+		<specialization name="motorized" className="workingWidth"/>
+    </specializations>
 	<l10n filenamePrefix="modDesc/modDesc_l10n">
 		<text name="function_EDGEroller">
 			<en>Rollers can remove fields as well as cleaning an area for wheel tracks.</en>
@@ -357,6 +363,15 @@ Log delle modifiche 2.0.0.0:
             <ru>Полевой каток</ru>
             <pl>Wałek polowy</pl>
             <it>Rullo Di Campo</it>
+		</text>
+		<text name="shopItem_EDGErollerPro">
+			<en>Field Roller Pro</en>
+			<de>Feldwalze Pro</de>
+			<fr>Rouleau De Terrain Pro</fr>
+            <es>Rodillo de campo Pro</es>
+            <ru>Полевой каток Pro</ru>
+            <pl>Wałek polowy Pro</pl>
+            <it>Rullo Di Campo Pro</it>
 		</text>
 		<text name="Config_Size">
 			<en>Size</en>

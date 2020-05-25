@@ -3,6 +3,8 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
+        <text name="configuration_Design"		text="подробность покрашенный"/>
+        <text name="configuration_Painted"		text="покрашенный"/>
         <text name="action_foldWARNING"			text="складка Предупреждающие знаки"/>
         <text name="action_unfoldWARNING"		text="Открываются Предупреждающие знаки"/>
         <text name="configuration_warningSigns"	text="Предупреждающие знаки"/>
@@ -18,10 +20,6 @@
         <text name="config_liteDrum"			text="облегченная"/>
         <text name="config_proDrum"				text="профессионал"/>
         <text name="config_roughDrum"			text="Грубый"/>
-        <text name="config_customDrumBolt"		text="обычай с болтовым соединением"/>
-        <text name="config_liteDrumBolt"		text="облегченная с болтовым соединением"/>
-        <text name="config_proDrumBolt"			text="профессионал с болтовым соединением"/>
-        <text name="config_roughDrumBolt"		text="Грубый с болтовым соединением"/>
         <text name="config_lights"				text="огни"/>
         <text name="config_beacon"				text="Маяковые огни"/>
         <text name="config_work"				text="Рабочие фары"/>
