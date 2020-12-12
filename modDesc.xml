@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="47">
     <author>Edge Gaming</author>
-    <translationsby>Castiga</translationsby>
     <version>2.0.0.0</version>
-    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+    <title>
         <en>EDGE Field Roller</en>
         <de>EDGE Feldwalze</de>
         <fr>EDGE Rouleau De Terrain</fr>
@@ -43,9 +42,6 @@ Required power: 60 hp+
 
 - Supports "Seasons" and "Courseplay Six".
 
--If you find any bugs or got suggestions for improvment, please dont hesitate to contact us on our Github page at https://github.com/FS19-Mods-By-EDGE/
-or Contact EDGEPureGaming on facebook.
-
 Changelog 1.0.0.0:
 - Added 6m Option
 - Changed it to a single item with size options
@@ -62,8 +58,8 @@ Changelog 2.0.0.0:
 - New store photos & mod icon.
 - Fixed a few misplaced UVs on the old model.]]></en>
 
-<de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern, Sie können auch zum Entfernen von Schnee verwendet werden.
-Benutzerfreundlichen 3-Punkt-Befestigung. Sie sind auch ferngesteuert, falls Sie sie jemals ohne Traktor bewegen müssen.
+<de><![CDATA[Walzen zum entfernen von Feldern die z.B. falsch angelegt wurden sowie zum Schneeräumen (Seasons).
+Einfach zu bedienender 3-Punkt-Anbau. Sie sind auch ferngesteuert, falls Sie sie einmal ohne Traktor bewegen müssen.
 
 Feldwalze S:
 Preis: 4.900€
@@ -90,9 +86,6 @@ Arbeitsgeschwindigkeit: 17 km/h
 Benötigte Leistung: 60 PS+
 
 - Unterstützt "Seasons" und "Courseplay Six".
-
--Wenn Sie Fehler finden oder Verbesserungsvorschläge haben, zögern Sie bitte nicht, uns auf unserer Github-Seite unter https://github.com/FS19-Mods-By-EDGE/
-zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.
 
 Änderungsprotokoll 1.0.0.0:
 - 6m Option hinzugefügt
@@ -139,9 +132,6 @@ Puissance requise: 60 ch+
 
 - Supporte "Seasons" et "Courseplay Six".
 
--Si vous trouvez des bugs ou avez des suggestions d'amélioration, n'hésitez pas à nous contacter sur notre page Github à https://github.com/FS19-Mods-By-EDGE/
-ou Contacter EDGEPureGaming sur facebook.
-
 Changer le journal 1.0.0.0:
 - Option 6m ajoutée
 - Changé en un seul élément avec des options de taille
@@ -185,9 +175,6 @@ Max. velocidad de trabajo: 17 kph
 Potencia requerida: 60 hp+
 
 - Admite "Seasons" y "Courseplay Six".
-
--Si encuentra algún error u obtiene sugerencias de mejora, no dude en contactarnos en nuestra página de Github en https://github.com/FS19-Mods-By-EDGE/
-o póngase en contacto con EDGEPureGaming en Facebook.
 
 Registro de cambios 1.0.0.0:
 - Opción agregada de 6 m
@@ -233,9 +220,6 @@ Registro de cambios 2.0.0.0:
 
 - Поддерживает «Seasons» и «Courseplay Six».
 
--Если вы обнаружите какие-либо ошибки или получите предложения по улучшению, пожалуйста, не стесняйтесь связаться с нами на нашей странице Github по адресу https://github.com/FS19-Mods-By-EDGE/
-или связаться с EDGEPureGaming на Facebook.
-
 Изменения 1.0.0.0:
 - Добавлена опция 6м
 - Поменял его на один элемент с параметрами размера
@@ -279,9 +263,6 @@ Max. prędkość robocza: 17 km / h
 Wymagana moc: 60 KM+
 
 - Obsługuje „Seasons” i „Courseplay Six”.
-
--Если вы обнаружите какие-либо ошибки или получите предложения по улучшению, пожалуйста, не стесняйтесь связаться с нами на нашей странице Github по адресу https://github.com/FS19-Mods-By-EDGE/
-или связаться с EDGEPureGaming на Facebook.
 
 Dziennik zmian 1.0.0.0:
 - Dodano opcję 6m
@@ -327,9 +308,6 @@ Max. velocità di lavoro: 17 km / h
 Potenza richiesta: 60 CV +
 
 - Supporta "Seasons" e "Courseplay Six".
-
--Se trovi qualche bug o hai suggerimenti per l'improvvisazione, non esitare a contattarci sulla nostra pagina Github all'indirizzo https://github.com/FS19-Mods-By-EDGE/
-oppure Contatta EDGEPureGaming su Facebook.
 
 Elenco modifiche 1.0.0.0:
 - Aggiunta opzione 6m
@@ -441,8 +419,6 @@ Log delle modifiche 2.0.0.0:
 	</brands>
     <credits><![CDATA[
 ## Contributors
-- Castiga, EDGE Gaming
-## Translations
 - Castiga
 ## Designers
 - Castiga, GIANTS Software]]></credits>

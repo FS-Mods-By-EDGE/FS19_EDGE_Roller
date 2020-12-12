@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
         <text name="configuration_Design"		text="подробность покрашенный"/>
         <text name="configuration_Painted"		text="покрашенный"/>
@@ -24,7 +23,7 @@
         <text name="config_beacon"				text="Маяковые огни"/>
         <text name="config_work"				text="Рабочие фары"/>
         <text name="config_noLight"				text="Нет света"/>
-        <text name="config_beaconWork"			text="Маяковые огни & Рабочие фары"/>
+        <text name="config_beaconWork"			text="Маяковые огни &amp; Рабочие фары"/>
         <text name="config_decalWhite"			text="Белые наклейки"/>
         <text name="config_decalBlack"			text="Черные наклейки"/>
         <text name="config_decalDesign"			text="Золотые наклейки"/>

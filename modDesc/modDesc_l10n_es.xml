@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
         <text name="configuration_Design"		text="Detalle Pintada"/>
         <text name="configuration_Painted"		text="Pintada"/>
@@ -24,7 +23,7 @@
         <text name="config_beacon"				text="Luces de baliza"/>
         <text name="config_work"				text="Luces de trabajo"/>
         <text name="config_noLight"				text="Sin luces"/>
-        <text name="config_beaconWork"			text="Baliza & Luces de trabajo"/>
+        <text name="config_beaconWork"			text="Baliza &amp; Luces de trabajo"/>
         <text name="config_decalWhite"			text="Blanca Calcomanías"/>
         <text name="config_decalBlack"			text="Negra Calcomanías"/>
         <text name="config_decalDesign"			text="Oro Calcomanías"/>

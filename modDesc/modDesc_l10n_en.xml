@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 <author>Edge Gaming / Castiga</author>
-<translationby>Castiga</translationby>
 	<texts>
         <text name="configuration_Design"		text="Detail Painted"/>
         <text name="configuration_Painted"		text="Painted"/>
@@ -24,7 +23,7 @@
         <text name="config_beacon"				text="Beacon Lights"/>
         <text name="config_work"				text="Work Lights"/>
         <text name="config_noLight"				text="No Lights"/>
-        <text name="config_beaconWork"			text="Beacon & Work Lights"/>
+        <text name="config_beaconWork"			text="Beacon &amp; Work Lights"/>
         <text name="config_decalWhite"			text="White Decals"/>
         <text name="config_decalBlack"			text="Black Decals"/>
         <text name="config_decalDesign"			text="Gold Decals"/>
